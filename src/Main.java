@@ -23,7 +23,7 @@ public class Main {
         }
 
         //Задание №3
-        System.out.println("\n");
+        System.out.println();
         int year = 0;
         int todaysYear = 2022;
         for (;year <= todaysYear + 100; year++){
@@ -31,6 +31,19 @@ public class Main {
                 if (todaysYear - year <= 200)
                     System.out.println(year);
             }
+        }
+
+        // Задание №4
+        System.out.println();
+        for (i = 1; i <= 30; i++){
+            System.out.print(i + ":");
+            if (i % 3 == 0){
+                System.out.print(" ping");
+            }
+            if (i % 5 == 0){
+                System.out.print(" pong");
+            }
+            System.out.println();
         }
     }
 }
