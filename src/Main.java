@@ -21,5 +21,16 @@ public class Main {
             if ((dayOfMonth - 5) % 7 == 0)
                 System.out.println("Сегодня пятница, " + dayOfMonth + "-е число. Необходимо подготовить отчет.");
         }
+
+        //Задание №3
+        System.out.println("\n");
+        int year = 0;
+        int todaysYear = 2022;
+        for (;year <= todaysYear + 100; year++){
+            if (year % 79 == 0){
+                if (todaysYear - year <= 200)
+                    System.out.println(year);
+            }
+        }
     }
 }
