@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-
         // Задание №1
         short i = 1;
         while (i <= 10){
