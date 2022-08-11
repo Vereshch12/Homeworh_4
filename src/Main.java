@@ -45,5 +45,19 @@ public class Main {
             }
             System.out.println();
         }
+
+        //Задание №5
+        int i1 = 0;
+        int i2 = 1;
+        int k;
+        System.out.print("\n" + i1 + " " + i2);
+        for (i = 0; i < 8; i++){
+            k = i2;
+            i1 += i2;
+            System.out.print(" " + i1);
+            i2 = i1;
+            i1 = k;
+        }
+
     }
 }
